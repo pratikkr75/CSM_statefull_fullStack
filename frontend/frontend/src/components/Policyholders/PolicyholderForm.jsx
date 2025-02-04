@@ -72,7 +72,7 @@ const PolicyholderForm = ({ onSubmitSuccess }) => {
     }
 
     try {
-      const response = await fetch('https://csm-stateful.onrender.com/api/policyholders', {
+      const response = await fetch('http://localhost:5000/api/policyholders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
